@@ -1,0 +1,48 @@
+// =========================== ADAPTIVE =============
+
+@mixin _1200 {
+    @media (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin _992 {
+    @media (max-width: 992px) {
+        @content;
+    }
+}
+
+@mixin _768 {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin _576 {
+    @media (max-width: 576px) {
+        @content;
+    }
+}
+
+@mixin _480 {
+    @media (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin _350 {
+    @media (max-width: 350px) {
+        @content;
+    }
+}
+
+// ==================== REST =================
+
+@mixin text-fonts ($font-fam, $font-weight, $font-size, $line-height, $letter-space, $color) {
+    font-family: $font-fam;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-space;
+    color: $color;
+}
