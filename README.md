@@ -7,10 +7,8 @@
     This repository contains the layout of a website designed to provide a responsive, and user-friendly interface. The layout serves as a foundational structure for further development and customization of the site.
 
 ### Technologien / The technologies :
-    Typescript,
-    React,
-    Vite,
-    Tailwind CSS
+    HTML,
+    SCSS
 
 ##### Deployed Project :
     comming soon...
